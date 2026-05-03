@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Auth App</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-r from-blue-500 to-purple-600 min-h-screen flex items-center justify-center">
+
+  <div class="bg-white p-8 rounded-xl shadow-lg w-96">
+
+    <h1 class="text-2xl font-bold text-center mb-6">Auth App</h1>
+
+    <!-- REGISTER -->
+    <h2 class="text-lg font-semibold mb-2">Register</h2>
+    <input id="reg-username" placeholder="Username" class="w-full border p-2 mb-2 rounded">
+    <input id="reg-email" placeholder="Email" class="w-full border p-2 mb-2 rounded">
+    <input id="reg-password" type="password" placeholder="Password" class="w-full border p-2 mb-2 rounded">
+    <button onclick="register()" class="w-full bg-blue-500 hover:bg-blue-600 text-white py-2 rounded mb-4">
+      Register
+    </button>
+
+    <!-- LOGIN -->
+    <h2 class="text-lg font-semibold mb-2">Login</h2>
+    <input id="login-username" placeholder="Username" class="w-full border p-2 mb-2 rounded">
+    <input id="login-password" type="password" placeholder="Password" class="w-full border p-2 mb-2 rounded">
+    <button onclick="login()" class="w-full bg-green-500 hover:bg-green-600 text-white py-2 rounded mb-4">
+      Login
+    </button>
+
+    <!-- USER INFO -->
+    <div class="text-center">
+      <p id="user-data" class="mb-2">Not logged in</p>
+
+      <button onclick="getUser()" class="bg-purple-500 hover:bg-purple-600 text-white px-4 py-2 rounded mr-2">
+        Get User
+      </button>
+
+      <button onclick="logout()" class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded">
+        Logout
+      </button>
+    </div>
+
+    <!-- MESSAGE -->
+    <p id="message" class="text-center mt-4 font-semibold"></p>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
