@@ -8,15 +8,10 @@ This project demonstrates how authentication works on the frontend, including us
 
 ## 🚀 Live Demo
 
-👉 (Add your deployed link from Vercel or Netlify here)
+👉 https://free-api-auth-app.vercel.app/
 
 ---
 
-## 📂 GitHub Repository
-
-👉 (Paste your repo link here)
-
----
 
 ## 📌 Features
 
@@ -60,7 +55,7 @@ https://api.freeapi.app/api/v1
 1. Clone the repository:
 
 ```
-git clone <your-repo-link>
+git clone https://github.com/SUSHRUTO/FREE-API-Auth-App
 ```
 
 2. Open the project folder
